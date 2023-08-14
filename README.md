@@ -38,11 +38,15 @@ Go to `Deployment` tab, add war artifacts from web projects or war file.
 ![img](./images/05-PolarisTomcatServer-select-artifacts.png)
 
 # Release Notes
+## [1.0.1] - 2023-08-14
+- **[Fix]** webapp on root context path could not update properly for tomcat 7.x.
+
 ## [1.0.0] - 2023-08-13
-- One-click to download tomcat
-- Auto-detect maven web projects 
-- Auto-detect gradle web projects 
-- Auto build artifacts before launch 
-- Support launch multiple artifacts 
-- Support external war files and explored war directories
+- **[Feature]** One-click to download tomcat
+- **[Feature]** Auto-detect maven web projects 
+- **[Feature]** Auto-detect gradle web projects 
+- **[Feature]** Auto build artifacts before launch 
+- **[Feature]** Support launch multiple artifacts 
+- **[Feature]** Support external war files and explored war directories
+
 
