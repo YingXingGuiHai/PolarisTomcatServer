@@ -40,6 +40,8 @@ Go to `Deployment` tab, add war artifacts from web projects or war file.
 # Release Notes
 ## [1.0.1] - 2023-08-14
 - **[Fix]** webapp on root context path could not update properly for tomcat 7.x.
+- **[Fix]** bugs on windows platform.
+- **[Fix]** issue that browser url not changes after port changed.
 
 ## [1.0.0] - 2023-08-13
 - **[Feature]** One-click to download tomcat
