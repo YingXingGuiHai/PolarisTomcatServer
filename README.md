@@ -18,7 +18,7 @@ The Polaris Tomcat Server supports Tomcat 7 and above.
 # Getting Started
 ### 1. Install PolarisTomcatServer
 Search and install PolarisTomcatServer in Intellij IDEA plugin marketplace.
-
+![img](./images/00-PolarisTomcatServer-install.png)
 
 ### 2. Download or add tomcat server
 Go to Settings -> Polaris Tomcat Server -> click Download button to download tomcat server or Add button to add tomcat servers from local disk
