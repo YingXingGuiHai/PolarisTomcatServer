@@ -21,8 +21,9 @@ Search and install PolarisTomcatServer in Intellij IDEA plugin marketplace.
 ![img](./images/00-PolarisTomcatServer-install.png)
 
 ### 2. Download or add tomcat server
-Go to Settings -> Polaris Tomcat Server -> click Download button to download tomcat server or Add button to add tomcat servers from local disk
+Go to Settings -> Polaris Tomcat Server -> Tomcat Servers  -> click Download button to download tomcat server or Add button to add tomcat servers from local disk
 ![img](./images/01-PolarisTomcatServer-add-tomcat.png)
+![img](./images/01-PolarisTomcatServer-download-tomcat.png)
 
 ### 3. Add a PolarisTomcatServer configuration
 Go to Edit Configuration -> Add New Configuration -> Click Polaris Tomcat Server to add a PolarisTomcatServer configuration
