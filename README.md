@@ -11,7 +11,7 @@ Highlights:
 - Auto-detect gradle web projects
 - Auto build artifacts before launch tomcat
 - Support launch multiple artifacts
-- Support external war files and explored war directories
+- Support external war files and exploded war directories
 
 The Polaris Tomcat Server supports Tomcat 7 and above.
 
@@ -39,6 +39,20 @@ Go to `Deployment` tab, add war artifacts from web projects or war file.
 ![img](./images/05-PolarisTomcatServer-select-artifacts.png)
 
 # Release Notes
+## [1.0.6] - 2024-03-19
+- **[Feature]** Support configuration of tomcat admin port, AKA shutdown port.
+- **[Improvement]** Remove usage of some deprecated APIs
+
+## [1.0.5] - 2023-12-18
+- **[Feature]** Support 'warSourceDirectory' and 'webXml' configuration from maven-war-plugin.
+- **[Feature]** Support 'webAppDirectory' and 'webXml' configuration from gradle war plugin.
+- **[Feature]** Support plugin recommendation for web projects.
+- **[Feature]** Now, the 'Use IntelliJ IDEA API to build artifacts' setting can take effect immediately once configuration panel reopened.
+- **[Fix]** An issue that unexpected behaviour when configuration copied.
+- **[Fix]** An issue that configuration panel state not changed even if configuration is changed.
+- **[Fix]** An issue that artifacts may not be found when configuration is shared across computers.
+- **[Fix]** Some display issues.
+
 ## [1.0.4] - 2023-12-02
 - **[Feature]** Support run tomcat from context (right click menu and main class/method gutter) for web app modules.
 - **[Feature]** Support web facet and artifacts
@@ -48,6 +62,7 @@ Go to `Deployment` tab, add war artifacts from web projects or war file.
 - **[Fix]** Apply button remains enabled after being pressed.
 - **[Fix]** Configuration modifications will also modify the configuration template.
 - **[Fix]** Some display issues.
+
 ## [1.0.1] - 2023-08-14
 - **[Fix]** webapp on root context path could not update properly for tomcat 7.x.
 - **[Fix]** bugs on windows platform.
@@ -59,6 +74,4 @@ Go to `Deployment` tab, add war artifacts from web projects or war file.
 - **[Feature]** Auto-detect gradle web projects 
 - **[Feature]** Auto build artifacts before launch 
 - **[Feature]** Support launch multiple artifacts 
-- **[Feature]** Support external war files and explored war directories
-
-
+- **[Feature]** Support external war files and exploded war directories
