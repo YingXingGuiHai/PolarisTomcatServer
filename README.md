@@ -1,6 +1,18 @@
 - [Overview](#overview)
 - [Getting Started](#getting-started)
+    - [1. Install PolarisTomcatServer](#1-install-polaristomcatserver)
+    - [2. Download or add tomcat server](#2-download-or-add-tomcat-server)
+    - [3. Add a PolarisTomcatServer configuration](#3-add-a-polaristomcatserver-configuration)
+    - [4. Configure tomcat settings](#4-configure-tomcat-settings)
+    - [5. Select war artifacts](#5-select-war-artifacts)
 - [Release Notes](#release-notes)
+  - [\[1.0.8\] - 2025-06-14](#108---2025-06-14)
+  - [\[1.0.7\] - 2024-06-11](#107---2024-06-11)
+  - [\[1.0.6\] - 2024-03-19](#106---2024-03-19)
+  - [\[1.0.5\] - 2023-12-18](#105---2023-12-18)
+  - [\[1.0.4\] - 2023-12-02](#104---2023-12-02)
+  - [\[1.0.1\] - 2023-08-14](#101---2023-08-14)
+  - [\[1.0.0\] - 2023-08-13](#100---2023-08-13)
 
 # Overview
 [Polaris Tomcat Server](https://plugins.jetbrains.com/plugin/22429-polaris-tomcat-server) is a plugin for Intellij IDEA Community, Ultimate and Educational.  
@@ -39,6 +51,13 @@ Go to `Deployment` tab, add war artifacts from web projects or war file.
 ![img](./images/05-PolarisTomcatServer-select-artifacts.png)
 
 # Release Notes
+## [1.0.8] - 2025-06-14
+- **[Improvement]** Some UI.
+- **[Fix]** An issue that before launch task would not be added properly in IDEA Ultimate.
+
+## [1.0.7] - 2024-06-11
+- **[Fix]** An issue that the launch url can not be edited in the run configuration panel.
+
 ## [1.0.6] - 2024-03-19
 - **[Feature]** Support configuration of tomcat admin port, AKA shutdown port.
 - **[Improvement]** Remove usage of some deprecated APIs
